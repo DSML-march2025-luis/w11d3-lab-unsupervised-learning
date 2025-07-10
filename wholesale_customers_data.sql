@@ -1,3 +1,7 @@
+CREATE DATABASE IF NOT EXISTS lab_unsupervised_learning;
+
+USE lab_unsupervised_learning;
+
 CREATE TABLE IF NOT EXISTS `wholesale_customers_data` (
     `Channel` INT,
     `Region` INT,
